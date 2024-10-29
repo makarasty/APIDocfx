@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Enums.EmploymentType
+  commentId: T:APIDocfx.Enums.EmploymentType
+  id: EmploymentType
+  parent: APIDocfx.Enums
+  children:
+  - APIDocfx.Enums.EmploymentType.Contract
+  - APIDocfx.Enums.EmploymentType.FullTime
+  - APIDocfx.Enums.EmploymentType.PartTime
+  langs:
+  - csharp
+  - vb
+  name: EmploymentType
+  nameWithType: EmploymentType
+  fullName: APIDocfx.Enums.EmploymentType
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: EmploymentType
+    path: Enums/EmployeeEnums.cs
+    startLine: 26
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nТип зайнятості співробітника.\n"
+  example: []
+  syntax:
+    content: public enum EmploymentType
+    content.vb: Public Enum EmploymentType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: APIDocfx.Enums.EmploymentType.FullTime
+  commentId: F:APIDocfx.Enums.EmploymentType.FullTime
+  id: FullTime
+  parent: APIDocfx.Enums.EmploymentType
+  langs:
+  - csharp
+  - vb
+  name: FullTime
+  nameWithType: EmploymentType.FullTime
+  fullName: APIDocfx.Enums.EmploymentType.FullTime
+  type: Field
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: FullTime
+    path: Enums/EmployeeEnums.cs
+    startLine: 31
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nПовна зайнятість.\n"
+  example: []
+  syntax:
+    content: FullTime = 0
+    return:
+      type: APIDocfx.Enums.EmploymentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: APIDocfx.Enums.EmploymentType.PartTime
+  commentId: F:APIDocfx.Enums.EmploymentType.PartTime
+  id: PartTime
+  parent: APIDocfx.Enums.EmploymentType
+  langs:
+  - csharp
+  - vb
+  name: PartTime
+  nameWithType: EmploymentType.PartTime
+  fullName: APIDocfx.Enums.EmploymentType.PartTime
+  type: Field
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: PartTime
+    path: Enums/EmployeeEnums.cs
+    startLine: 36
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nНеповна зайнятість.\n"
+  example: []
+  syntax:
+    content: PartTime = 1
+    return:
+      type: APIDocfx.Enums.EmploymentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: APIDocfx.Enums.EmploymentType.Contract
+  commentId: F:APIDocfx.Enums.EmploymentType.Contract
+  id: Contract
+  parent: APIDocfx.Enums.EmploymentType
+  langs:
+  - csharp
+  - vb
+  name: Contract
+  nameWithType: EmploymentType.Contract
+  fullName: APIDocfx.Enums.EmploymentType.Contract
+  type: Field
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: Contract
+    path: Enums/EmployeeEnums.cs
+    startLine: 41
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nКонтрактна основа.\n"
+  example: []
+  syntax:
+    content: Contract = 2
+    return:
+      type: APIDocfx.Enums.EmploymentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: APIDocfx.Enums
+  commentId: N:APIDocfx.Enums
+  name: APIDocfx.Enums
+  nameWithType: APIDocfx.Enums
+  fullName: APIDocfx.Enums
+- uid: APIDocfx.Enums.EmploymentType
+  commentId: T:APIDocfx.Enums.EmploymentType
+  parent: APIDocfx.Enums
+  name: EmploymentType
+  nameWithType: EmploymentType
+  fullName: APIDocfx.Enums.EmploymentType

@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Services.Interfaces.IDepartmentService
+  commentId: T:APIDocfx.Services.Interfaces.IDepartmentService
+  id: IDepartmentService
+  parent: APIDocfx.Services.Interfaces
+  children:
+  - APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+  - APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IDepartmentService
+  nameWithType: IDepartmentService
+  fullName: APIDocfx.Services.Interfaces.IDepartmentService
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IDepartmentService.cs
+    id: IDepartmentService
+    path: Services/Interfaces/IDepartmentService.cs
+    startLine: 7
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nІнтерфейс для сервісу роботи з відділами.\n"
+  example: []
+  syntax:
+    content: public interface IDepartmentService
+    content.vb: Public Interface IDepartmentService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+  commentId: M:APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+  id: AddDepartment(APIDocfx.Models.Department)
+  parent: APIDocfx.Services.Interfaces.IDepartmentService
+  langs:
+  - csharp
+  - vb
+  name: AddDepartment(Department)
+  nameWithType: IDepartmentService.AddDepartment(Department)
+  fullName: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IDepartmentService.cs
+    id: AddDepartment
+    path: Services/Interfaces/IDepartmentService.cs
+    startLine: 13
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nДодає новий відділ в систему.\n"
+  example: []
+  syntax:
+    content: void AddDepartment(Department department)
+    parameters:
+    - id: department
+      type: APIDocfx.Models.Department
+      description: Відділ для додавання.
+    content.vb: Sub AddDepartment(department As Department)
+  overload: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment*
+- uid: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+  commentId: M:APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+  id: GetDepartmentById(System.Int32)
+  parent: APIDocfx.Services.Interfaces.IDepartmentService
+  langs:
+  - csharp
+  - vb
+  name: GetDepartmentById(Int32)
+  nameWithType: IDepartmentService.GetDepartmentById(Int32)
+  fullName: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IDepartmentService.cs
+    id: GetDepartmentById
+    path: Services/Interfaces/IDepartmentService.cs
+    startLine: 20
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nОтримує відділ за його ідентифікатором.\n"
+  example: []
+  syntax:
+    content: Department GetDepartmentById(int departmentId)
+    parameters:
+    - id: departmentId
+      type: System.Int32
+      description: Ідентифікатор відділу.
+    return:
+      type: APIDocfx.Models.Department
+      description: Знайдений відділ.
+    content.vb: Function GetDepartmentById(departmentId As Integer) As Department
+  overload: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById*
+references:
+- uid: APIDocfx.Services.Interfaces
+  commentId: N:APIDocfx.Services.Interfaces
+  name: APIDocfx.Services.Interfaces
+  nameWithType: APIDocfx.Services.Interfaces
+  fullName: APIDocfx.Services.Interfaces
+- uid: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment*
+  commentId: Overload:APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+  name: AddDepartment
+  nameWithType: IDepartmentService.AddDepartment
+  fullName: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+- uid: APIDocfx.Models.Department
+  commentId: T:APIDocfx.Models.Department
+  parent: APIDocfx.Models
+  name: Department
+  nameWithType: Department
+  fullName: APIDocfx.Models.Department
+- uid: APIDocfx.Models
+  commentId: N:APIDocfx.Models
+  name: APIDocfx.Models
+  nameWithType: APIDocfx.Models
+  fullName: APIDocfx.Models
+- uid: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById*
+  commentId: Overload:APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+  name: GetDepartmentById
+  nameWithType: IDepartmentService.GetDepartmentById
+  fullName: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,37 @@
+{
+	"metadata": [
+		{
+			"src": [
+				{
+					"files": [
+						"APIDocfx.csproj"
+					],
+					"exclude": [
+						"**/bin/**",
+						"**/obj/**"
+					]
+				}
+			],
+			"dest": "api"
+		}
+	],
+	"build": {
+		"content": [
+			{
+				"files": [
+					"*.md",
+					"api/**.yml",
+					"api/**.md"
+				]
+			}
+		],
+		"dest": "_site",
+		"globalMetadata": {
+			"_enableSearch": true,
+			"_enableNewTab": true
+		},
+		"template": [
+			"default"
+		]
+	}
+}

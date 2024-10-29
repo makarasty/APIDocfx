@@ -1,0 +1,1 @@
+{"index.md":[{"File":"index.md","LogLevel":"warning","Message":"2 invalid cross reference(s) \"[класами даних](xref:APIDocx.Models.Employee)\", \"[інтерфейси та сервіси](xref:APIDocx.Services.Interfaces.IEmployeeService)\".","Phase":"BuildCommand.BuildCore.Build Document.LinkPhaseHandlerWithIncremental.Apply Templates","Code":"UidNotFound"}]}

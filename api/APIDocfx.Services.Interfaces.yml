@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Services.Interfaces
+  commentId: N:APIDocfx.Services.Interfaces
+  id: APIDocfx.Services.Interfaces
+  children:
+  - APIDocfx.Services.Interfaces.IDepartmentService
+  - APIDocfx.Services.Interfaces.IEmployeeService
+  langs:
+  - csharp
+  - vb
+  name: APIDocfx.Services.Interfaces
+  nameWithType: APIDocfx.Services.Interfaces
+  fullName: APIDocfx.Services.Interfaces
+  type: Namespace
+  assemblies:
+  - APIDocfx
+references:
+- uid: APIDocfx.Services.Interfaces.IDepartmentService
+  commentId: T:APIDocfx.Services.Interfaces.IDepartmentService
+  parent: APIDocfx.Services.Interfaces
+  name: IDepartmentService
+  nameWithType: IDepartmentService
+  fullName: APIDocfx.Services.Interfaces.IDepartmentService
+- uid: APIDocfx.Services.Interfaces.IEmployeeService
+  commentId: T:APIDocfx.Services.Interfaces.IEmployeeService
+  parent: APIDocfx.Services.Interfaces
+  name: IEmployeeService
+  nameWithType: IEmployeeService
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService
+- uid: APIDocfx.Services.Interfaces
+  commentId: N:APIDocfx.Services.Interfaces
+  name: APIDocfx.Services.Interfaces
+  nameWithType: APIDocfx.Services.Interfaces
+  fullName: APIDocfx.Services.Interfaces

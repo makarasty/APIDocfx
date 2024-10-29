@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Enums
+  commentId: N:APIDocfx.Enums
+  id: APIDocfx.Enums
+  children:
+  - APIDocfx.Enums.EmployeeStatus
+  - APIDocfx.Enums.EmploymentType
+  langs:
+  - csharp
+  - vb
+  name: APIDocfx.Enums
+  nameWithType: APIDocfx.Enums
+  fullName: APIDocfx.Enums
+  type: Namespace
+  assemblies:
+  - APIDocfx
+references:
+- uid: APIDocfx.Enums.EmployeeStatus
+  commentId: T:APIDocfx.Enums.EmployeeStatus
+  parent: APIDocfx.Enums
+  name: EmployeeStatus
+  nameWithType: EmployeeStatus
+  fullName: APIDocfx.Enums.EmployeeStatus
+- uid: APIDocfx.Enums.EmploymentType
+  commentId: T:APIDocfx.Enums.EmploymentType
+  parent: APIDocfx.Enums
+  name: EmploymentType
+  nameWithType: EmploymentType
+  fullName: APIDocfx.Enums.EmploymentType
+- uid: APIDocfx.Enums
+  commentId: N:APIDocfx.Enums
+  name: APIDocfx.Enums
+  nameWithType: APIDocfx.Enums
+  fullName: APIDocfx.Enums

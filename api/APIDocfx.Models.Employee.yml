@@ -1,0 +1,631 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Models.Employee
+  commentId: T:APIDocfx.Models.Employee
+  id: Employee
+  parent: APIDocfx.Models
+  children:
+  - APIDocfx.Models.Employee.Department
+  - APIDocfx.Models.Employee.EmployeeId
+  - APIDocfx.Models.Employee.EmploymentType
+  - APIDocfx.Models.Employee.FullName
+  - APIDocfx.Models.Employee.Position
+  - APIDocfx.Models.Employee.Status
+  langs:
+  - csharp
+  - vb
+  name: Employee
+  nameWithType: Employee
+  fullName: APIDocfx.Models.Employee
+  type: Class
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: Employee
+    path: Models/Employee.cs
+    startLine: 7
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nКлас, що представляє співробітника організації.\n"
+  example: []
+  syntax:
+    content: public class Employee
+    content.vb: Public Class Employee
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: APIDocfx.Models.Employee.EmployeeId
+  commentId: P:APIDocfx.Models.Employee.EmployeeId
+  id: EmployeeId
+  parent: APIDocfx.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: EmployeeId
+  nameWithType: Employee.EmployeeId
+  fullName: APIDocfx.Models.Employee.EmployeeId
+  type: Property
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: EmployeeId
+    path: Models/Employee.cs
+    startLine: 12
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nУнікальний ідентифікатор співробітника.\n"
+  example: []
+  syntax:
+    content: public int EmployeeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmployeeId As Integer
+  overload: APIDocfx.Models.Employee.EmployeeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: APIDocfx.Models.Employee.FullName
+  commentId: P:APIDocfx.Models.Employee.FullName
+  id: FullName
+  parent: APIDocfx.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: Employee.FullName
+  fullName: APIDocfx.Models.Employee.FullName
+  type: Property
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: FullName
+    path: Models/Employee.cs
+    startLine: 17
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nПовне ім&apos;я співробітника.\n"
+  example: []
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: APIDocfx.Models.Employee.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: APIDocfx.Models.Employee.Department
+  commentId: P:APIDocfx.Models.Employee.Department
+  id: Department
+  parent: APIDocfx.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: Employee.Department
+  fullName: APIDocfx.Models.Employee.Department
+  type: Property
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: Department
+    path: Models/Employee.cs
+    startLine: 22
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nВідділ, до якого належить співробітник.\n"
+  example: []
+  syntax:
+    content: public Department Department { get; set; }
+    parameters: []
+    return:
+      type: APIDocfx.Models.Department
+    content.vb: Public Property Department As Department
+  overload: APIDocfx.Models.Employee.Department*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: APIDocfx.Models.Employee.Position
+  commentId: P:APIDocfx.Models.Employee.Position
+  id: Position
+  parent: APIDocfx.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Employee.Position
+  fullName: APIDocfx.Models.Employee.Position
+  type: Property
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: Position
+    path: Models/Employee.cs
+    startLine: 27
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nПосада співробітника.\n"
+  example: []
+  syntax:
+    content: public Position Position { get; set; }
+    parameters: []
+    return:
+      type: APIDocfx.Models.Position
+    content.vb: Public Property Position As Position
+  overload: APIDocfx.Models.Employee.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: APIDocfx.Models.Employee.Status
+  commentId: P:APIDocfx.Models.Employee.Status
+  id: Status
+  parent: APIDocfx.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Employee.Status
+  fullName: APIDocfx.Models.Employee.Status
+  type: Property
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: Status
+    path: Models/Employee.cs
+    startLine: 32
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nСтатус співробітника.\n"
+  example: []
+  syntax:
+    content: public EmployeeStatus Status { get; set; }
+    parameters: []
+    return:
+      type: APIDocfx.Enums.EmployeeStatus
+    content.vb: Public Property Status As EmployeeStatus
+  overload: APIDocfx.Models.Employee.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: APIDocfx.Models.Employee.EmploymentType
+  commentId: P:APIDocfx.Models.Employee.EmploymentType
+  id: EmploymentType
+  parent: APIDocfx.Models.Employee
+  langs:
+  - csharp
+  - vb
+  name: EmploymentType
+  nameWithType: Employee.EmploymentType
+  fullName: APIDocfx.Models.Employee.EmploymentType
+  type: Property
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+    id: EmploymentType
+    path: Models/Employee.cs
+    startLine: 37
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Models
+  summary: "\nТип зайнятості співробітника.\n"
+  example: []
+  syntax:
+    content: public EmploymentType EmploymentType { get; set; }
+    parameters: []
+    return:
+      type: APIDocfx.Enums.EmploymentType
+    content.vb: Public Property EmploymentType As EmploymentType
+  overload: APIDocfx.Models.Employee.EmploymentType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: APIDocfx.Models
+  commentId: N:APIDocfx.Models
+  name: APIDocfx.Models
+  nameWithType: APIDocfx.Models
+  fullName: APIDocfx.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: APIDocfx.Models.Employee.EmployeeId*
+  commentId: Overload:APIDocfx.Models.Employee.EmployeeId
+  name: EmployeeId
+  nameWithType: Employee.EmployeeId
+  fullName: APIDocfx.Models.Employee.EmployeeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: APIDocfx.Models.Employee.FullName*
+  commentId: Overload:APIDocfx.Models.Employee.FullName
+  name: FullName
+  nameWithType: Employee.FullName
+  fullName: APIDocfx.Models.Employee.FullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: APIDocfx.Models.Employee.Department*
+  commentId: Overload:APIDocfx.Models.Employee.Department
+  name: Department
+  nameWithType: Employee.Department
+  fullName: APIDocfx.Models.Employee.Department
+- uid: APIDocfx.Models.Department
+  commentId: T:APIDocfx.Models.Department
+  parent: APIDocfx.Models
+  name: Department
+  nameWithType: Department
+  fullName: APIDocfx.Models.Department
+- uid: APIDocfx.Models.Employee.Position*
+  commentId: Overload:APIDocfx.Models.Employee.Position
+  name: Position
+  nameWithType: Employee.Position
+  fullName: APIDocfx.Models.Employee.Position
+- uid: APIDocfx.Models.Position
+  commentId: T:APIDocfx.Models.Position
+  parent: APIDocfx.Models
+  name: Position
+  nameWithType: Position
+  fullName: APIDocfx.Models.Position
+- uid: APIDocfx.Models.Employee.Status*
+  commentId: Overload:APIDocfx.Models.Employee.Status
+  name: Status
+  nameWithType: Employee.Status
+  fullName: APIDocfx.Models.Employee.Status
+- uid: APIDocfx.Enums.EmployeeStatus
+  commentId: T:APIDocfx.Enums.EmployeeStatus
+  parent: APIDocfx.Enums
+  name: EmployeeStatus
+  nameWithType: EmployeeStatus
+  fullName: APIDocfx.Enums.EmployeeStatus
+- uid: APIDocfx.Enums
+  commentId: N:APIDocfx.Enums
+  name: APIDocfx.Enums
+  nameWithType: APIDocfx.Enums
+  fullName: APIDocfx.Enums
+- uid: APIDocfx.Models.Employee.EmploymentType*
+  commentId: Overload:APIDocfx.Models.Employee.EmploymentType
+  name: EmploymentType
+  nameWithType: Employee.EmploymentType
+  fullName: APIDocfx.Models.Employee.EmploymentType
+- uid: APIDocfx.Enums.EmploymentType
+  commentId: T:APIDocfx.Enums.EmploymentType
+  parent: APIDocfx.Enums
+  name: EmploymentType
+  nameWithType: EmploymentType
+  fullName: APIDocfx.Enums.EmploymentType

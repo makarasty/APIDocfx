@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Services.Interfaces.IEmployeeService
+  commentId: T:APIDocfx.Services.Interfaces.IEmployeeService
+  id: IEmployeeService
+  parent: APIDocfx.Services.Interfaces
+  children:
+  - APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+  - APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+  - APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+  langs:
+  - csharp
+  - vb
+  name: IEmployeeService
+  nameWithType: IEmployeeService
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+    id: IEmployeeService
+    path: Services/Interfaces/IEmployeeService.cs
+    startLine: 7
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nІнтерфейс для сервісу роботи зі співробітниками.\n"
+  example: []
+  syntax:
+    content: public interface IEmployeeService
+    content.vb: Public Interface IEmployeeService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+  commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+  id: AddEmployee(APIDocfx.Models.Employee)
+  parent: APIDocfx.Services.Interfaces.IEmployeeService
+  langs:
+  - csharp
+  - vb
+  name: AddEmployee(Employee)
+  nameWithType: IEmployeeService.AddEmployee(Employee)
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+    id: AddEmployee
+    path: Services/Interfaces/IEmployeeService.cs
+    startLine: 13
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nДодає нового співробітника в систему.\n"
+  example: []
+  syntax:
+    content: void AddEmployee(Employee employee)
+    parameters:
+    - id: employee
+      type: APIDocfx.Models.Employee
+      description: Співробітник для додавання.
+    content.vb: Sub AddEmployee(employee As Employee)
+  overload: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee*
+- uid: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+  commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+  id: GetEmployeeById(System.Int32)
+  parent: APIDocfx.Services.Interfaces.IEmployeeService
+  langs:
+  - csharp
+  - vb
+  name: GetEmployeeById(Int32)
+  nameWithType: IEmployeeService.GetEmployeeById(Int32)
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+    id: GetEmployeeById
+    path: Services/Interfaces/IEmployeeService.cs
+    startLine: 20
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nОтримує співробітника за його ідентифікатором.\n"
+  example: []
+  syntax:
+    content: Employee GetEmployeeById(int employeeId)
+    parameters:
+    - id: employeeId
+      type: System.Int32
+      description: Ідентифікатор співробітника.
+    return:
+      type: APIDocfx.Models.Employee
+      description: Знайдений співробітник.
+    content.vb: Function GetEmployeeById(employeeId As Integer) As Employee
+  overload: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById*
+- uid: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+  commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+  id: UpdateEmployee(APIDocfx.Models.Employee)
+  parent: APIDocfx.Services.Interfaces.IEmployeeService
+  langs:
+  - csharp
+  - vb
+  name: UpdateEmployee(Employee)
+  nameWithType: IEmployeeService.UpdateEmployee(Employee)
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+    id: UpdateEmployee
+    path: Services/Interfaces/IEmployeeService.cs
+    startLine: 26
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Services.Interfaces
+  summary: "\nОновлює інформацію про співробітника.\n"
+  example: []
+  syntax:
+    content: void UpdateEmployee(Employee employee)
+    parameters:
+    - id: employee
+      type: APIDocfx.Models.Employee
+      description: Співробітник з оновленою інформацією.
+    content.vb: Sub UpdateEmployee(employee As Employee)
+  overload: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee*
+references:
+- uid: APIDocfx.Services.Interfaces
+  commentId: N:APIDocfx.Services.Interfaces
+  name: APIDocfx.Services.Interfaces
+  nameWithType: APIDocfx.Services.Interfaces
+  fullName: APIDocfx.Services.Interfaces
+- uid: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee*
+  commentId: Overload:APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+  name: AddEmployee
+  nameWithType: IEmployeeService.AddEmployee
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+- uid: APIDocfx.Models.Employee
+  commentId: T:APIDocfx.Models.Employee
+  parent: APIDocfx.Models
+  name: Employee
+  nameWithType: Employee
+  fullName: APIDocfx.Models.Employee
+- uid: APIDocfx.Models
+  commentId: N:APIDocfx.Models
+  name: APIDocfx.Models
+  nameWithType: APIDocfx.Models
+  fullName: APIDocfx.Models
+- uid: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById*
+  commentId: Overload:APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+  name: GetEmployeeById
+  nameWithType: IEmployeeService.GetEmployeeById
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee*
+  commentId: Overload:APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee
+  name: UpdateEmployee
+  nameWithType: IEmployeeService.UpdateEmployee
+  fullName: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee

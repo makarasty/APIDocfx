@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Services
+  commentId: N:APIDocfx.Services
+  id: APIDocfx.Services
+  children:
+  - APIDocfx.Services.DepartmentService
+  - APIDocfx.Services.EmployeeService
+  langs:
+  - csharp
+  - vb
+  name: APIDocfx.Services
+  nameWithType: APIDocfx.Services
+  fullName: APIDocfx.Services
+  type: Namespace
+  assemblies:
+  - APIDocfx
+references:
+- uid: APIDocfx.Services.DepartmentService
+  commentId: T:APIDocfx.Services.DepartmentService
+  name: DepartmentService
+  nameWithType: DepartmentService
+  fullName: APIDocfx.Services.DepartmentService
+- uid: APIDocfx.Services.EmployeeService
+  commentId: T:APIDocfx.Services.EmployeeService
+  name: EmployeeService
+  nameWithType: EmployeeService
+  fullName: APIDocfx.Services.EmployeeService

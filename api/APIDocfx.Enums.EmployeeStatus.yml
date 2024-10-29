@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Enums.EmployeeStatus
+  commentId: T:APIDocfx.Enums.EmployeeStatus
+  id: EmployeeStatus
+  parent: APIDocfx.Enums
+  children:
+  - APIDocfx.Enums.EmployeeStatus.Active
+  - APIDocfx.Enums.EmployeeStatus.OnLeave
+  - APIDocfx.Enums.EmployeeStatus.Terminated
+  langs:
+  - csharp
+  - vb
+  name: EmployeeStatus
+  nameWithType: EmployeeStatus
+  fullName: APIDocfx.Enums.EmployeeStatus
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: EmployeeStatus
+    path: Enums/EmployeeEnums.cs
+    startLine: 5
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nСтатус співробітника.\n"
+  example: []
+  syntax:
+    content: public enum EmployeeStatus
+    content.vb: Public Enum EmployeeStatus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: APIDocfx.Enums.EmployeeStatus.Active
+  commentId: F:APIDocfx.Enums.EmployeeStatus.Active
+  id: Active
+  parent: APIDocfx.Enums.EmployeeStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: EmployeeStatus.Active
+  fullName: APIDocfx.Enums.EmployeeStatus.Active
+  type: Field
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: Active
+    path: Enums/EmployeeEnums.cs
+    startLine: 10
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nСпівробітник активний.\n"
+  example: []
+  syntax:
+    content: Active = 0
+    return:
+      type: APIDocfx.Enums.EmployeeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: APIDocfx.Enums.EmployeeStatus.Terminated
+  commentId: F:APIDocfx.Enums.EmployeeStatus.Terminated
+  id: Terminated
+  parent: APIDocfx.Enums.EmployeeStatus
+  langs:
+  - csharp
+  - vb
+  name: Terminated
+  nameWithType: EmployeeStatus.Terminated
+  fullName: APIDocfx.Enums.EmployeeStatus.Terminated
+  type: Field
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: Terminated
+    path: Enums/EmployeeEnums.cs
+    startLine: 15
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nСпівробітник звільнений.\n"
+  example: []
+  syntax:
+    content: Terminated = 1
+    return:
+      type: APIDocfx.Enums.EmployeeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: APIDocfx.Enums.EmployeeStatus.OnLeave
+  commentId: F:APIDocfx.Enums.EmployeeStatus.OnLeave
+  id: OnLeave
+  parent: APIDocfx.Enums.EmployeeStatus
+  langs:
+  - csharp
+  - vb
+  name: OnLeave
+  nameWithType: EmployeeStatus.OnLeave
+  fullName: APIDocfx.Enums.EmployeeStatus.OnLeave
+  type: Field
+  source:
+    remote:
+      path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+    id: OnLeave
+    path: Enums/EmployeeEnums.cs
+    startLine: 20
+  assemblies:
+  - APIDocfx
+  namespace: APIDocfx.Enums
+  summary: "\nСпівробітник у відпустці.\n"
+  example: []
+  syntax:
+    content: OnLeave = 2
+    return:
+      type: APIDocfx.Enums.EmployeeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: APIDocfx.Enums
+  commentId: N:APIDocfx.Enums
+  name: APIDocfx.Enums
+  nameWithType: APIDocfx.Enums
+  fullName: APIDocfx.Enums
+- uid: APIDocfx.Enums.EmployeeStatus
+  commentId: T:APIDocfx.Enums.EmployeeStatus
+  parent: APIDocfx.Enums
+  name: EmployeeStatus
+  nameWithType: EmployeeStatus
+  fullName: APIDocfx.Enums.EmployeeStatus

@@ -1,0 +1,267 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "N5c21Sf00dCPdCLW7iW0THaenML1CLHopbR6zCqmZVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Enums.EmployeeStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Enums.EmployeeStatus.html",
+          "hash": "2DwwR5UaMQKBsbnjaU2T6hEzggnwhjqieMBkiw+GPaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Enums.EmploymentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Enums.EmploymentType.html",
+          "hash": "IjGKoJk7WWobhlXtI1DRTDl8tvy/DL7p+kqiGRny/zg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Enums.html",
+          "hash": "f1UD04rgOdOjPQdtc0YEaV2zJ+BI5KnmJ6k9l7r4kiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Models.Department.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Models.Department.html",
+          "hash": "LCc8FSbFUuVxRZdxedRHMoqeWNjBvoFKa0kDXFZIEAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Models.Employee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Models.Employee.html",
+          "hash": "DXdODCwqGO2pOT3BxN5BwYXhNd9y8CxXAHmzEFLqOVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Models.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Models.Position.html",
+          "hash": "YDjXAI5KK0/frY0zWh1IThVAo6d1rNGDEwdRP0Ar6OA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Models.html",
+          "hash": "ou4xlDliLoKi+80iOX9HftonXJikl8are28n7t1At9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Services.DepartmentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Services.DepartmentService.html",
+          "hash": "PAL3frYYcoYQSuGuVgYNaGU2O1L05ApfS1DIawauwW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Services.EmployeeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Services.EmployeeService.html",
+          "hash": "custccqGRSkYP/5sM9nTphHIiMD1drKaHGRpuN9MeHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Services.Interfaces.IDepartmentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Services.Interfaces.IDepartmentService.html",
+          "hash": "PN2W0db+PZv9I/MtHrV0TQ1frIdDFwsUG9/DPwpOI08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Services.Interfaces.IEmployeeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Services.Interfaces.IEmployeeService.html",
+          "hash": "od0fD9Q5eDOgpJ6NM+KlPcsL62UsEBrWJOcdO+OlE/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Services.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Services.Interfaces.html",
+          "hash": "4HRi6tA8eadX3q4VNhs/qFVAVlIqLJOCaSjV+Lohc6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIDocfx.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIDocfx.Services.html",
+          "hash": "swEGM+6U3WFvi/Clm84LgYW0H26pODmd8irXsoLTfJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "j8+mT4vISWZBB358PGaWWWhV2PG199hH5xbWeDUmCx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "end15H9zYsEZFC6kpqsmmywkoqHlhR1Unvu//yB7b/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "usage.html",
+          "hash": "DhqW9JxFSImHNVJlcZzxjRTIWPpRxTFsK0MJ9FPbv3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 13
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

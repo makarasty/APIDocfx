@@ -1,0 +1,2564 @@
+id: APIDocfx
+language: CSharp
+name:
+  Default: APIDocfx
+qualifiedName:
+  Default: APIDocfx
+type: Assembly
+modifiers: {}
+items:
+- id: APIDocfx.Enums
+  commentId: N:APIDocfx.Enums
+  language: CSharp
+  name:
+    CSharp: APIDocfx.Enums
+    VB: APIDocfx.Enums
+  nameWithType:
+    CSharp: APIDocfx.Enums
+    VB: APIDocfx.Enums
+  qualifiedName:
+    CSharp: APIDocfx.Enums
+    VB: APIDocfx.Enums
+  type: Namespace
+  assemblies:
+  - APIDocfx
+  modifiers: {}
+  items:
+  - id: APIDocfx.Enums.EmployeeStatus
+    commentId: T:APIDocfx.Enums.EmployeeStatus
+    language: CSharp
+    name:
+      CSharp: EmployeeStatus
+      VB: EmployeeStatus
+    nameWithType:
+      CSharp: EmployeeStatus
+      VB: EmployeeStatus
+    qualifiedName:
+      CSharp: APIDocfx.Enums.EmployeeStatus
+      VB: APIDocfx.Enums.EmployeeStatus
+    type: Enum
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Enums
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+      id: EmployeeStatus
+      path: Enums/EmployeeEnums.cs
+      startLine: 5
+    summary: "\nСтатус співробітника.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public enum EmployeeStatus
+        VB: Public Enum EmployeeStatus
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: APIDocfx.Enums.EmployeeStatus.Active
+      commentId: F:APIDocfx.Enums.EmployeeStatus.Active
+      language: CSharp
+      name:
+        CSharp: Active
+        VB: Active
+      nameWithType:
+        CSharp: EmployeeStatus.Active
+        VB: EmployeeStatus.Active
+      qualifiedName:
+        CSharp: APIDocfx.Enums.EmployeeStatus.Active
+        VB: APIDocfx.Enums.EmployeeStatus.Active
+      type: Field
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Enums
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+        id: Active
+        path: Enums/EmployeeEnums.cs
+        startLine: 10
+      summary: "\nСпівробітник активний.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Active = 0
+          VB: Active = 0
+        return:
+          type: APIDocfx.Enums.EmployeeStatus
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: APIDocfx.Enums.EmployeeStatus.Terminated
+      commentId: F:APIDocfx.Enums.EmployeeStatus.Terminated
+      language: CSharp
+      name:
+        CSharp: Terminated
+        VB: Terminated
+      nameWithType:
+        CSharp: EmployeeStatus.Terminated
+        VB: EmployeeStatus.Terminated
+      qualifiedName:
+        CSharp: APIDocfx.Enums.EmployeeStatus.Terminated
+        VB: APIDocfx.Enums.EmployeeStatus.Terminated
+      type: Field
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Enums
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+        id: Terminated
+        path: Enums/EmployeeEnums.cs
+        startLine: 15
+      summary: "\nСпівробітник звільнений.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Terminated = 1
+          VB: Terminated = 1
+        return:
+          type: APIDocfx.Enums.EmployeeStatus
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: APIDocfx.Enums.EmployeeStatus.OnLeave
+      commentId: F:APIDocfx.Enums.EmployeeStatus.OnLeave
+      language: CSharp
+      name:
+        CSharp: OnLeave
+        VB: OnLeave
+      nameWithType:
+        CSharp: EmployeeStatus.OnLeave
+        VB: EmployeeStatus.OnLeave
+      qualifiedName:
+        CSharp: APIDocfx.Enums.EmployeeStatus.OnLeave
+        VB: APIDocfx.Enums.EmployeeStatus.OnLeave
+      type: Field
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Enums
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+        id: OnLeave
+        path: Enums/EmployeeEnums.cs
+        startLine: 20
+      summary: "\nСпівробітник у відпустці.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: OnLeave = 2
+          VB: OnLeave = 2
+        return:
+          type: APIDocfx.Enums.EmployeeStatus
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: APIDocfx.Enums.EmploymentType
+    commentId: T:APIDocfx.Enums.EmploymentType
+    language: CSharp
+    name:
+      CSharp: EmploymentType
+      VB: EmploymentType
+    nameWithType:
+      CSharp: EmploymentType
+      VB: EmploymentType
+    qualifiedName:
+      CSharp: APIDocfx.Enums.EmploymentType
+      VB: APIDocfx.Enums.EmploymentType
+    type: Enum
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Enums
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+      id: EmploymentType
+      path: Enums/EmployeeEnums.cs
+      startLine: 26
+    summary: "\nТип зайнятості співробітника.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public enum EmploymentType
+        VB: Public Enum EmploymentType
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: APIDocfx.Enums.EmploymentType.FullTime
+      commentId: F:APIDocfx.Enums.EmploymentType.FullTime
+      language: CSharp
+      name:
+        CSharp: FullTime
+        VB: FullTime
+      nameWithType:
+        CSharp: EmploymentType.FullTime
+        VB: EmploymentType.FullTime
+      qualifiedName:
+        CSharp: APIDocfx.Enums.EmploymentType.FullTime
+        VB: APIDocfx.Enums.EmploymentType.FullTime
+      type: Field
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Enums
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+        id: FullTime
+        path: Enums/EmployeeEnums.cs
+        startLine: 31
+      summary: "\nПовна зайнятість.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: FullTime = 0
+          VB: FullTime = 0
+        return:
+          type: APIDocfx.Enums.EmploymentType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: APIDocfx.Enums.EmploymentType.PartTime
+      commentId: F:APIDocfx.Enums.EmploymentType.PartTime
+      language: CSharp
+      name:
+        CSharp: PartTime
+        VB: PartTime
+      nameWithType:
+        CSharp: EmploymentType.PartTime
+        VB: EmploymentType.PartTime
+      qualifiedName:
+        CSharp: APIDocfx.Enums.EmploymentType.PartTime
+        VB: APIDocfx.Enums.EmploymentType.PartTime
+      type: Field
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Enums
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+        id: PartTime
+        path: Enums/EmployeeEnums.cs
+        startLine: 36
+      summary: "\nНеповна зайнятість.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: PartTime = 1
+          VB: PartTime = 1
+        return:
+          type: APIDocfx.Enums.EmploymentType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: APIDocfx.Enums.EmploymentType.Contract
+      commentId: F:APIDocfx.Enums.EmploymentType.Contract
+      language: CSharp
+      name:
+        CSharp: Contract
+        VB: Contract
+      nameWithType:
+        CSharp: EmploymentType.Contract
+        VB: EmploymentType.Contract
+      qualifiedName:
+        CSharp: APIDocfx.Enums.EmploymentType.Contract
+        VB: APIDocfx.Enums.EmploymentType.Contract
+      type: Field
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Enums
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Enums/EmployeeEnums.cs
+        id: Contract
+        path: Enums/EmployeeEnums.cs
+        startLine: 41
+      summary: "\nКонтрактна основа.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Contract = 2
+          VB: Contract = 2
+        return:
+          type: APIDocfx.Enums.EmploymentType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+- id: APIDocfx.Models
+  commentId: N:APIDocfx.Models
+  language: CSharp
+  name:
+    CSharp: APIDocfx.Models
+    VB: APIDocfx.Models
+  nameWithType:
+    CSharp: APIDocfx.Models
+    VB: APIDocfx.Models
+  qualifiedName:
+    CSharp: APIDocfx.Models
+    VB: APIDocfx.Models
+  type: Namespace
+  assemblies:
+  - APIDocfx
+  modifiers: {}
+  items:
+  - id: APIDocfx.Models.Department
+    commentId: T:APIDocfx.Models.Department
+    language: CSharp
+    name:
+      CSharp: Department
+      VB: Department
+    nameWithType:
+      CSharp: Department
+      VB: Department
+    qualifiedName:
+      CSharp: APIDocfx.Models.Department
+      VB: APIDocfx.Models.Department
+    type: Class
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Models
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Department.cs
+      id: Department
+      path: Models/Department.cs
+      startLine: 5
+    summary: "\nКлас, що представляє відділ організації.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Department
+        VB: Public Class Department
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: APIDocfx.Models.Department.DepartmentId
+      commentId: P:APIDocfx.Models.Department.DepartmentId
+      language: CSharp
+      name:
+        CSharp: DepartmentId
+        VB: DepartmentId
+      nameWithType:
+        CSharp: Department.DepartmentId
+        VB: Department.DepartmentId
+      qualifiedName:
+        CSharp: APIDocfx.Models.Department.DepartmentId
+        VB: APIDocfx.Models.Department.DepartmentId
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Department.cs
+        id: DepartmentId
+        path: Models/Department.cs
+        startLine: 10
+      summary: "\nУнікальний ідентифікатор відділу.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int DepartmentId { get; set; }
+          VB: Public Property DepartmentId As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: APIDocfx.Models.Department.DepartmentId*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Department.Name
+      commentId: P:APIDocfx.Models.Department.Name
+      language: CSharp
+      name:
+        CSharp: Name
+        VB: Name
+      nameWithType:
+        CSharp: Department.Name
+        VB: Department.Name
+      qualifiedName:
+        CSharp: APIDocfx.Models.Department.Name
+        VB: APIDocfx.Models.Department.Name
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Department.cs
+        id: Name
+        path: Models/Department.cs
+        startLine: 15
+      summary: "\nНазва відділу.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Name { get; set; }
+          VB: Public Property Name As String
+        parameters: []
+        return:
+          type: System.String
+      overload: APIDocfx.Models.Department.Name*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Department.Employees
+      commentId: P:APIDocfx.Models.Department.Employees
+      language: CSharp
+      name:
+        CSharp: Employees
+        VB: Employees
+      nameWithType:
+        CSharp: Department.Employees
+        VB: Department.Employees
+      qualifiedName:
+        CSharp: APIDocfx.Models.Department.Employees
+        VB: APIDocfx.Models.Department.Employees
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Department.cs
+        id: Employees
+        path: Models/Department.cs
+        startLine: 20
+      summary: "\nСписок співробітників у відділі.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public List<Employee> Employees { get; set; }
+          VB: Public Property Employees As List(Of Employee)
+        parameters: []
+        return:
+          type: List{APIDocfx.Models.Employee}
+      overload: APIDocfx.Models.Department.Employees*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: APIDocfx.Models.Employee
+    commentId: T:APIDocfx.Models.Employee
+    language: CSharp
+    name:
+      CSharp: Employee
+      VB: Employee
+    nameWithType:
+      CSharp: Employee
+      VB: Employee
+    qualifiedName:
+      CSharp: APIDocfx.Models.Employee
+      VB: APIDocfx.Models.Employee
+    type: Class
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Models
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+      id: Employee
+      path: Models/Employee.cs
+      startLine: 7
+    summary: "\nКлас, що представляє співробітника організації.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Employee
+        VB: Public Class Employee
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: APIDocfx.Models.Employee.EmployeeId
+      commentId: P:APIDocfx.Models.Employee.EmployeeId
+      language: CSharp
+      name:
+        CSharp: EmployeeId
+        VB: EmployeeId
+      nameWithType:
+        CSharp: Employee.EmployeeId
+        VB: Employee.EmployeeId
+      qualifiedName:
+        CSharp: APIDocfx.Models.Employee.EmployeeId
+        VB: APIDocfx.Models.Employee.EmployeeId
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+        id: EmployeeId
+        path: Models/Employee.cs
+        startLine: 12
+      summary: "\nУнікальний ідентифікатор співробітника.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int EmployeeId { get; set; }
+          VB: Public Property EmployeeId As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: APIDocfx.Models.Employee.EmployeeId*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Employee.FullName
+      commentId: P:APIDocfx.Models.Employee.FullName
+      language: CSharp
+      name:
+        CSharp: FullName
+        VB: FullName
+      nameWithType:
+        CSharp: Employee.FullName
+        VB: Employee.FullName
+      qualifiedName:
+        CSharp: APIDocfx.Models.Employee.FullName
+        VB: APIDocfx.Models.Employee.FullName
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+        id: FullName
+        path: Models/Employee.cs
+        startLine: 17
+      summary: "\nПовне ім&apos;я співробітника.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string FullName { get; set; }
+          VB: Public Property FullName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: APIDocfx.Models.Employee.FullName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Employee.Department
+      commentId: P:APIDocfx.Models.Employee.Department
+      language: CSharp
+      name:
+        CSharp: Department
+        VB: Department
+      nameWithType:
+        CSharp: Employee.Department
+        VB: Employee.Department
+      qualifiedName:
+        CSharp: APIDocfx.Models.Employee.Department
+        VB: APIDocfx.Models.Employee.Department
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+        id: Department
+        path: Models/Employee.cs
+        startLine: 22
+      summary: "\nВідділ, до якого належить співробітник.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Department Department { get; set; }
+          VB: Public Property Department As Department
+        parameters: []
+        return:
+          type: APIDocfx.Models.Department
+      overload: APIDocfx.Models.Employee.Department*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Employee.Position
+      commentId: P:APIDocfx.Models.Employee.Position
+      language: CSharp
+      name:
+        CSharp: Position
+        VB: Position
+      nameWithType:
+        CSharp: Employee.Position
+        VB: Employee.Position
+      qualifiedName:
+        CSharp: APIDocfx.Models.Employee.Position
+        VB: APIDocfx.Models.Employee.Position
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+        id: Position
+        path: Models/Employee.cs
+        startLine: 27
+      summary: "\nПосада співробітника.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Position Position { get; set; }
+          VB: Public Property Position As Position
+        parameters: []
+        return:
+          type: APIDocfx.Models.Position
+      overload: APIDocfx.Models.Employee.Position*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Employee.Status
+      commentId: P:APIDocfx.Models.Employee.Status
+      language: CSharp
+      name:
+        CSharp: Status
+        VB: Status
+      nameWithType:
+        CSharp: Employee.Status
+        VB: Employee.Status
+      qualifiedName:
+        CSharp: APIDocfx.Models.Employee.Status
+        VB: APIDocfx.Models.Employee.Status
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+        id: Status
+        path: Models/Employee.cs
+        startLine: 32
+      summary: "\nСтатус співробітника.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public EmployeeStatus Status { get; set; }
+          VB: Public Property Status As EmployeeStatus
+        parameters: []
+        return:
+          type: APIDocfx.Enums.EmployeeStatus
+      overload: APIDocfx.Models.Employee.Status*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Employee.EmploymentType
+      commentId: P:APIDocfx.Models.Employee.EmploymentType
+      language: CSharp
+      name:
+        CSharp: EmploymentType
+        VB: EmploymentType
+      nameWithType:
+        CSharp: Employee.EmploymentType
+        VB: Employee.EmploymentType
+      qualifiedName:
+        CSharp: APIDocfx.Models.Employee.EmploymentType
+        VB: APIDocfx.Models.Employee.EmploymentType
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Employee.cs
+        id: EmploymentType
+        path: Models/Employee.cs
+        startLine: 37
+      summary: "\nТип зайнятості співробітника.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public EmploymentType EmploymentType { get; set; }
+          VB: Public Property EmploymentType As EmploymentType
+        parameters: []
+        return:
+          type: APIDocfx.Enums.EmploymentType
+      overload: APIDocfx.Models.Employee.EmploymentType*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: APIDocfx.Models.Position
+    commentId: T:APIDocfx.Models.Position
+    language: CSharp
+    name:
+      CSharp: Position
+      VB: Position
+    nameWithType:
+      CSharp: Position
+      VB: Position
+    qualifiedName:
+      CSharp: APIDocfx.Models.Position
+      VB: APIDocfx.Models.Position
+    type: Class
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Models
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Position.cs
+      id: Position
+      path: Models/Position.cs
+      startLine: 5
+    summary: "\nКлас, що представляє посаду співробітника.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Position
+        VB: Public Class Position
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: APIDocfx.Models.Position.Title
+      commentId: P:APIDocfx.Models.Position.Title
+      language: CSharp
+      name:
+        CSharp: Title
+        VB: Title
+      nameWithType:
+        CSharp: Position.Title
+        VB: Position.Title
+      qualifiedName:
+        CSharp: APIDocfx.Models.Position.Title
+        VB: APIDocfx.Models.Position.Title
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Position.cs
+        id: Title
+        path: Models/Position.cs
+        startLine: 10
+      summary: "\nНазва посади.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Title { get; set; }
+          VB: Public Property Title As String
+        parameters: []
+        return:
+          type: System.String
+      overload: APIDocfx.Models.Position.Title*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: APIDocfx.Models.Position.Salary
+      commentId: P:APIDocfx.Models.Position.Salary
+      language: CSharp
+      name:
+        CSharp: Salary
+        VB: Salary
+      nameWithType:
+        CSharp: Position.Salary
+        VB: Position.Salary
+      qualifiedName:
+        CSharp: APIDocfx.Models.Position.Salary
+        VB: APIDocfx.Models.Position.Salary
+      type: Property
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Models
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Models/Position.cs
+        id: Salary
+        path: Models/Position.cs
+        startLine: 15
+      summary: "\nЗаробітна плата для цієї посади.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public decimal Salary { get; set; }
+          VB: Public Property Salary As Decimal
+        parameters: []
+        return:
+          type: System.Decimal
+      overload: APIDocfx.Models.Position.Salary*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+- id: APIDocfx.Services
+  commentId: N:APIDocfx.Services
+  language: CSharp
+  name:
+    CSharp: APIDocfx.Services
+    VB: APIDocfx.Services
+  nameWithType:
+    CSharp: APIDocfx.Services
+    VB: APIDocfx.Services
+  qualifiedName:
+    CSharp: APIDocfx.Services
+    VB: APIDocfx.Services
+  type: Namespace
+  assemblies:
+  - APIDocfx
+  modifiers: {}
+  items:
+  - id: APIDocfx.Services.DepartmentService
+    commentId: T:APIDocfx.Services.DepartmentService
+    language: CSharp
+    name:
+      CSharp: DepartmentService
+      VB: DepartmentService
+    nameWithType:
+      CSharp: DepartmentService
+      VB: DepartmentService
+    qualifiedName:
+      CSharp: APIDocfx.Services.DepartmentService
+      VB: APIDocfx.Services.DepartmentService
+    type: Class
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Services
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/DepartmentService.cs
+      id: DepartmentService
+      path: Services/DepartmentService.cs
+      startLine: 8
+    summary: "\nРеалізація інтерфейсу IDepartmentService.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class DepartmentService : IDepartmentService'
+        VB: >-
+          Public Class DepartmentService
+
+              Implements IDepartmentService
+    inheritance:
+    - System.Object
+    implements:
+    - APIDocfx.Services.Interfaces.IDepartmentService
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: APIDocfx.Services.DepartmentService.AddDepartment(APIDocfx.Models.Department)
+      commentId: M:APIDocfx.Services.DepartmentService.AddDepartment(APIDocfx.Models.Department)
+      language: CSharp
+      name:
+        CSharp: AddDepartment(Department)
+        VB: AddDepartment(Department)
+      nameWithType:
+        CSharp: DepartmentService.AddDepartment(Department)
+        VB: DepartmentService.AddDepartment(Department)
+      qualifiedName:
+        CSharp: APIDocfx.Services.DepartmentService.AddDepartment(APIDocfx.Models.Department)
+        VB: APIDocfx.Services.DepartmentService.AddDepartment(APIDocfx.Models.Department)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/DepartmentService.cs
+        id: AddDepartment
+        path: Services/DepartmentService.cs
+        startLine: 13
+      example: []
+      syntax:
+        content:
+          CSharp: public void AddDepartment(Department department)
+          VB: Public Sub AddDepartment(department As Department)
+        parameters:
+        - id: department
+          type: APIDocfx.Models.Department
+      overload: APIDocfx.Services.DepartmentService.AddDepartment*
+      implements:
+      - APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: APIDocfx.Services.DepartmentService.GetDepartmentById(System.Int32)
+      commentId: M:APIDocfx.Services.DepartmentService.GetDepartmentById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetDepartmentById(Int32)
+        VB: GetDepartmentById(Int32)
+      nameWithType:
+        CSharp: DepartmentService.GetDepartmentById(Int32)
+        VB: DepartmentService.GetDepartmentById(Int32)
+      qualifiedName:
+        CSharp: APIDocfx.Services.DepartmentService.GetDepartmentById(System.Int32)
+        VB: APIDocfx.Services.DepartmentService.GetDepartmentById(System.Int32)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/DepartmentService.cs
+        id: GetDepartmentById
+        path: Services/DepartmentService.cs
+        startLine: 19
+      example: []
+      syntax:
+        content:
+          CSharp: public Department GetDepartmentById(int departmentId)
+          VB: Public Function GetDepartmentById(departmentId As Integer) As Department
+        parameters:
+        - id: departmentId
+          type: System.Int32
+        return:
+          type: APIDocfx.Models.Department
+      overload: APIDocfx.Services.DepartmentService.GetDepartmentById*
+      implements:
+      - APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: APIDocfx.Services.EmployeeService
+    commentId: T:APIDocfx.Services.EmployeeService
+    language: CSharp
+    name:
+      CSharp: EmployeeService
+      VB: EmployeeService
+    nameWithType:
+      CSharp: EmployeeService
+      VB: EmployeeService
+    qualifiedName:
+      CSharp: APIDocfx.Services.EmployeeService
+      VB: APIDocfx.Services.EmployeeService
+    type: Class
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Services
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/EmployeeService.cs
+      id: EmployeeService
+      path: Services/EmployeeService.cs
+      startLine: 8
+    summary: "\nРеалізація інтерфейсу IEmployeeService.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class EmployeeService : IEmployeeService'
+        VB: >-
+          Public Class EmployeeService
+
+              Implements IEmployeeService
+    inheritance:
+    - System.Object
+    implements:
+    - APIDocfx.Services.Interfaces.IEmployeeService
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: APIDocfx.Services.EmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      commentId: M:APIDocfx.Services.EmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      language: CSharp
+      name:
+        CSharp: AddEmployee(Employee)
+        VB: AddEmployee(Employee)
+      nameWithType:
+        CSharp: EmployeeService.AddEmployee(Employee)
+        VB: EmployeeService.AddEmployee(Employee)
+      qualifiedName:
+        CSharp: APIDocfx.Services.EmployeeService.AddEmployee(APIDocfx.Models.Employee)
+        VB: APIDocfx.Services.EmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/EmployeeService.cs
+        id: AddEmployee
+        path: Services/EmployeeService.cs
+        startLine: 13
+      example: []
+      syntax:
+        content:
+          CSharp: public void AddEmployee(Employee employee)
+          VB: Public Sub AddEmployee(employee As Employee)
+        parameters:
+        - id: employee
+          type: APIDocfx.Models.Employee
+      overload: APIDocfx.Services.EmployeeService.AddEmployee*
+      implements:
+      - APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: APIDocfx.Services.EmployeeService.GetEmployeeById(System.Int32)
+      commentId: M:APIDocfx.Services.EmployeeService.GetEmployeeById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetEmployeeById(Int32)
+        VB: GetEmployeeById(Int32)
+      nameWithType:
+        CSharp: EmployeeService.GetEmployeeById(Int32)
+        VB: EmployeeService.GetEmployeeById(Int32)
+      qualifiedName:
+        CSharp: APIDocfx.Services.EmployeeService.GetEmployeeById(System.Int32)
+        VB: APIDocfx.Services.EmployeeService.GetEmployeeById(System.Int32)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/EmployeeService.cs
+        id: GetEmployeeById
+        path: Services/EmployeeService.cs
+        startLine: 19
+      example: []
+      syntax:
+        content:
+          CSharp: public Employee GetEmployeeById(int employeeId)
+          VB: Public Function GetEmployeeById(employeeId As Integer) As Employee
+        parameters:
+        - id: employeeId
+          type: System.Int32
+        return:
+          type: APIDocfx.Models.Employee
+      overload: APIDocfx.Services.EmployeeService.GetEmployeeById*
+      implements:
+      - APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: APIDocfx.Services.EmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      commentId: M:APIDocfx.Services.EmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      language: CSharp
+      name:
+        CSharp: UpdateEmployee(Employee)
+        VB: UpdateEmployee(Employee)
+      nameWithType:
+        CSharp: EmployeeService.UpdateEmployee(Employee)
+        VB: EmployeeService.UpdateEmployee(Employee)
+      qualifiedName:
+        CSharp: APIDocfx.Services.EmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+        VB: APIDocfx.Services.EmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/EmployeeService.cs
+        id: UpdateEmployee
+        path: Services/EmployeeService.cs
+        startLine: 25
+      example: []
+      syntax:
+        content:
+          CSharp: public void UpdateEmployee(Employee employee)
+          VB: Public Sub UpdateEmployee(employee As Employee)
+        parameters:
+        - id: employee
+          type: APIDocfx.Models.Employee
+      overload: APIDocfx.Services.EmployeeService.UpdateEmployee*
+      implements:
+      - APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: APIDocfx.Services.Interfaces
+  commentId: N:APIDocfx.Services.Interfaces
+  language: CSharp
+  name:
+    CSharp: APIDocfx.Services.Interfaces
+    VB: APIDocfx.Services.Interfaces
+  nameWithType:
+    CSharp: APIDocfx.Services.Interfaces
+    VB: APIDocfx.Services.Interfaces
+  qualifiedName:
+    CSharp: APIDocfx.Services.Interfaces
+    VB: APIDocfx.Services.Interfaces
+  type: Namespace
+  assemblies:
+  - APIDocfx
+  modifiers: {}
+  items:
+  - id: APIDocfx.Services.Interfaces.IDepartmentService
+    commentId: T:APIDocfx.Services.Interfaces.IDepartmentService
+    language: CSharp
+    name:
+      CSharp: IDepartmentService
+      VB: IDepartmentService
+    nameWithType:
+      CSharp: IDepartmentService
+      VB: IDepartmentService
+    qualifiedName:
+      CSharp: APIDocfx.Services.Interfaces.IDepartmentService
+      VB: APIDocfx.Services.Interfaces.IDepartmentService
+    type: Interface
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Services.Interfaces
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IDepartmentService.cs
+      id: IDepartmentService
+      path: Services/Interfaces/IDepartmentService.cs
+      startLine: 7
+    summary: "\nІнтерфейс для сервісу роботи з відділами.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public interface IDepartmentService
+        VB: Public Interface IDepartmentService
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+      commentId: M:APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+      language: CSharp
+      name:
+        CSharp: AddDepartment(Department)
+        VB: AddDepartment(Department)
+      nameWithType:
+        CSharp: IDepartmentService.AddDepartment(Department)
+        VB: IDepartmentService.AddDepartment(Department)
+      qualifiedName:
+        CSharp: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+        VB: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services.Interfaces
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IDepartmentService.cs
+        id: AddDepartment
+        path: Services/Interfaces/IDepartmentService.cs
+        startLine: 13
+      summary: "\nДодає новий відділ в систему.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: void AddDepartment(Department department)
+          VB: Sub AddDepartment(department As Department)
+        parameters:
+        - id: department
+          type: APIDocfx.Models.Department
+          description: Відділ для додавання.
+      overload: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+      commentId: M:APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetDepartmentById(Int32)
+        VB: GetDepartmentById(Int32)
+      nameWithType:
+        CSharp: IDepartmentService.GetDepartmentById(Int32)
+        VB: IDepartmentService.GetDepartmentById(Int32)
+      qualifiedName:
+        CSharp: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+        VB: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services.Interfaces
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IDepartmentService.cs
+        id: GetDepartmentById
+        path: Services/Interfaces/IDepartmentService.cs
+        startLine: 20
+      summary: "\nОтримує відділ за його ідентифікатором.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Department GetDepartmentById(int departmentId)
+          VB: Function GetDepartmentById(departmentId As Integer) As Department
+        parameters:
+        - id: departmentId
+          type: System.Int32
+          description: Ідентифікатор відділу.
+        return:
+          type: APIDocfx.Models.Department
+          description: Знайдений відділ.
+      overload: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById*
+      modifiers:
+        CSharp: []
+        VB: []
+  - id: APIDocfx.Services.Interfaces.IEmployeeService
+    commentId: T:APIDocfx.Services.Interfaces.IEmployeeService
+    language: CSharp
+    name:
+      CSharp: IEmployeeService
+      VB: IEmployeeService
+    nameWithType:
+      CSharp: IEmployeeService
+      VB: IEmployeeService
+    qualifiedName:
+      CSharp: APIDocfx.Services.Interfaces.IEmployeeService
+      VB: APIDocfx.Services.Interfaces.IEmployeeService
+    type: Interface
+    assemblies:
+    - APIDocfx
+    namespace: APIDocfx.Services.Interfaces
+    source:
+      remote:
+        path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+      id: IEmployeeService
+      path: Services/Interfaces/IEmployeeService.cs
+      startLine: 7
+    summary: "\nІнтерфейс для сервісу роботи зі співробітниками.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public interface IEmployeeService
+        VB: Public Interface IEmployeeService
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      language: CSharp
+      name:
+        CSharp: AddEmployee(Employee)
+        VB: AddEmployee(Employee)
+      nameWithType:
+        CSharp: IEmployeeService.AddEmployee(Employee)
+        VB: IEmployeeService.AddEmployee(Employee)
+      qualifiedName:
+        CSharp: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+        VB: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services.Interfaces
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+        id: AddEmployee
+        path: Services/Interfaces/IEmployeeService.cs
+        startLine: 13
+      summary: "\nДодає нового співробітника в систему.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: void AddEmployee(Employee employee)
+          VB: Sub AddEmployee(employee As Employee)
+        parameters:
+        - id: employee
+          type: APIDocfx.Models.Employee
+          description: Співробітник для додавання.
+      overload: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+      commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetEmployeeById(Int32)
+        VB: GetEmployeeById(Int32)
+      nameWithType:
+        CSharp: IEmployeeService.GetEmployeeById(Int32)
+        VB: IEmployeeService.GetEmployeeById(Int32)
+      qualifiedName:
+        CSharp: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+        VB: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services.Interfaces
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+        id: GetEmployeeById
+        path: Services/Interfaces/IEmployeeService.cs
+        startLine: 20
+      summary: "\nОтримує співробітника за його ідентифікатором.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Employee GetEmployeeById(int employeeId)
+          VB: Function GetEmployeeById(employeeId As Integer) As Employee
+        parameters:
+        - id: employeeId
+          type: System.Int32
+          description: Ідентифікатор співробітника.
+        return:
+          type: APIDocfx.Models.Employee
+          description: Знайдений співробітник.
+      overload: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      language: CSharp
+      name:
+        CSharp: UpdateEmployee(Employee)
+        VB: UpdateEmployee(Employee)
+      nameWithType:
+        CSharp: IEmployeeService.UpdateEmployee(Employee)
+        VB: IEmployeeService.UpdateEmployee(Employee)
+      qualifiedName:
+        CSharp: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+        VB: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+      type: Method
+      assemblies:
+      - APIDocfx
+      namespace: APIDocfx.Services.Interfaces
+      source:
+        remote:
+          path: C:/Users/MaKarastY/Desktop/Projects/CSharp Projects/APIDocx/APIDocx/Services/Interfaces/IEmployeeService.cs
+        id: UpdateEmployee
+        path: Services/Interfaces/IEmployeeService.cs
+        startLine: 26
+      summary: "\nОновлює інформацію про співробітника.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: void UpdateEmployee(Employee employee)
+          VB: Sub UpdateEmployee(employee As Employee)
+        parameters:
+        - id: employee
+          type: APIDocfx.Models.Employee
+          description: Співробітник з оновленою інформацією.
+      overload: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee*
+      modifiers:
+        CSharp: []
+        VB: []
+references:
+  APIDocfx.Enums:
+    name:
+      CSharp:
+      - name: APIDocfx.Enums
+        nameWithType: APIDocfx.Enums
+        qualifiedName: APIDocfx.Enums
+      VB:
+      - name: APIDocfx.Enums
+        nameWithType: APIDocfx.Enums
+        qualifiedName: APIDocfx.Enums
+    isDefinition: true
+    commentId: N:APIDocfx.Enums
+  APIDocfx.Enums.EmployeeStatus:
+    name:
+      CSharp:
+      - id: APIDocfx.Enums.EmployeeStatus
+        name: EmployeeStatus
+        nameWithType: EmployeeStatus
+        qualifiedName: APIDocfx.Enums.EmployeeStatus
+      VB:
+      - id: APIDocfx.Enums.EmployeeStatus
+        name: EmployeeStatus
+        nameWithType: EmployeeStatus
+        qualifiedName: APIDocfx.Enums.EmployeeStatus
+    isDefinition: true
+    parent: APIDocfx.Enums
+    commentId: T:APIDocfx.Enums.EmployeeStatus
+  APIDocfx.Enums.EmploymentType:
+    name:
+      CSharp:
+      - id: APIDocfx.Enums.EmploymentType
+        name: EmploymentType
+        nameWithType: EmploymentType
+        qualifiedName: APIDocfx.Enums.EmploymentType
+      VB:
+      - id: APIDocfx.Enums.EmploymentType
+        name: EmploymentType
+        nameWithType: EmploymentType
+        qualifiedName: APIDocfx.Enums.EmploymentType
+    isDefinition: true
+    parent: APIDocfx.Enums
+    commentId: T:APIDocfx.Enums.EmploymentType
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  APIDocfx.Models.Department.DepartmentId*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Department.DepartmentId*
+        name: DepartmentId
+        nameWithType: Department.DepartmentId
+        qualifiedName: APIDocfx.Models.Department.DepartmentId
+      VB:
+      - id: APIDocfx.Models.Department.DepartmentId*
+        name: DepartmentId
+        nameWithType: Department.DepartmentId
+        qualifiedName: APIDocfx.Models.Department.DepartmentId
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Department.DepartmentId
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  APIDocfx.Models.Department.Name*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Department.Name*
+        name: Name
+        nameWithType: Department.Name
+        qualifiedName: APIDocfx.Models.Department.Name
+      VB:
+      - id: APIDocfx.Models.Department.Name*
+        name: Name
+        nameWithType: Department.Name
+        qualifiedName: APIDocfx.Models.Department.Name
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Department.Name
+  List`1:
+    name:
+      CSharp:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:List`1'
+  List{APIDocfx.Models.Employee}:
+    name:
+      CSharp:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: List`1
+    commentId: '!:List{APIDocfx.Models.Employee}'
+  APIDocfx.Models.Department.Employees*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Department.Employees*
+        name: Employees
+        nameWithType: Department.Employees
+        qualifiedName: APIDocfx.Models.Department.Employees
+      VB:
+      - id: APIDocfx.Models.Department.Employees*
+        name: Employees
+        nameWithType: Department.Employees
+        qualifiedName: APIDocfx.Models.Department.Employees
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Department.Employees
+  APIDocfx.Models.Department:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Department
+        name: Department
+        nameWithType: Department
+        qualifiedName: APIDocfx.Models.Department
+      VB:
+      - id: APIDocfx.Models.Department
+        name: Department
+        nameWithType: Department
+        qualifiedName: APIDocfx.Models.Department
+    isDefinition: true
+    parent: APIDocfx.Models
+    commentId: T:APIDocfx.Models.Department
+  APIDocfx.Models.Employee.EmployeeId*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee.EmployeeId*
+        name: EmployeeId
+        nameWithType: Employee.EmployeeId
+        qualifiedName: APIDocfx.Models.Employee.EmployeeId
+      VB:
+      - id: APIDocfx.Models.Employee.EmployeeId*
+        name: EmployeeId
+        nameWithType: Employee.EmployeeId
+        qualifiedName: APIDocfx.Models.Employee.EmployeeId
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Employee.EmployeeId
+  APIDocfx.Models.Employee.FullName*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee.FullName*
+        name: FullName
+        nameWithType: Employee.FullName
+        qualifiedName: APIDocfx.Models.Employee.FullName
+      VB:
+      - id: APIDocfx.Models.Employee.FullName*
+        name: FullName
+        nameWithType: Employee.FullName
+        qualifiedName: APIDocfx.Models.Employee.FullName
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Employee.FullName
+  APIDocfx.Models:
+    name:
+      CSharp:
+      - name: APIDocfx.Models
+        nameWithType: APIDocfx.Models
+        qualifiedName: APIDocfx.Models
+      VB:
+      - name: APIDocfx.Models
+        nameWithType: APIDocfx.Models
+        qualifiedName: APIDocfx.Models
+    isDefinition: true
+    commentId: N:APIDocfx.Models
+  APIDocfx.Models.Employee.Department*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee.Department*
+        name: Department
+        nameWithType: Employee.Department
+        qualifiedName: APIDocfx.Models.Employee.Department
+      VB:
+      - id: APIDocfx.Models.Employee.Department*
+        name: Department
+        nameWithType: Employee.Department
+        qualifiedName: APIDocfx.Models.Employee.Department
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Employee.Department
+  APIDocfx.Models.Position:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Position
+        name: Position
+        nameWithType: Position
+        qualifiedName: APIDocfx.Models.Position
+      VB:
+      - id: APIDocfx.Models.Position
+        name: Position
+        nameWithType: Position
+        qualifiedName: APIDocfx.Models.Position
+    isDefinition: true
+    parent: APIDocfx.Models
+    commentId: T:APIDocfx.Models.Position
+  APIDocfx.Models.Employee.Position*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee.Position*
+        name: Position
+        nameWithType: Employee.Position
+        qualifiedName: APIDocfx.Models.Employee.Position
+      VB:
+      - id: APIDocfx.Models.Employee.Position*
+        name: Position
+        nameWithType: Employee.Position
+        qualifiedName: APIDocfx.Models.Employee.Position
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Employee.Position
+  APIDocfx.Models.Employee.Status*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee.Status*
+        name: Status
+        nameWithType: Employee.Status
+        qualifiedName: APIDocfx.Models.Employee.Status
+      VB:
+      - id: APIDocfx.Models.Employee.Status*
+        name: Status
+        nameWithType: Employee.Status
+        qualifiedName: APIDocfx.Models.Employee.Status
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Employee.Status
+  APIDocfx.Models.Employee.EmploymentType*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee.EmploymentType*
+        name: EmploymentType
+        nameWithType: Employee.EmploymentType
+        qualifiedName: APIDocfx.Models.Employee.EmploymentType
+      VB:
+      - id: APIDocfx.Models.Employee.EmploymentType*
+        name: EmploymentType
+        nameWithType: Employee.EmploymentType
+        qualifiedName: APIDocfx.Models.Employee.EmploymentType
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Employee.EmploymentType
+  APIDocfx.Models.Employee:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      VB:
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+    isDefinition: true
+    parent: APIDocfx.Models
+    commentId: T:APIDocfx.Models.Employee
+  APIDocfx.Models.Position.Title*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Position.Title*
+        name: Title
+        nameWithType: Position.Title
+        qualifiedName: APIDocfx.Models.Position.Title
+      VB:
+      - id: APIDocfx.Models.Position.Title*
+        name: Title
+        nameWithType: Position.Title
+        qualifiedName: APIDocfx.Models.Position.Title
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Position.Title
+  System.Decimal:
+    name:
+      CSharp:
+      - id: System.Decimal
+        name: Decimal
+        nameWithType: Decimal
+        qualifiedName: System.Decimal
+        isExternal: true
+      VB:
+      - id: System.Decimal
+        name: Decimal
+        nameWithType: Decimal
+        qualifiedName: System.Decimal
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Decimal
+  APIDocfx.Models.Position.Salary*:
+    name:
+      CSharp:
+      - id: APIDocfx.Models.Position.Salary*
+        name: Salary
+        nameWithType: Position.Salary
+        qualifiedName: APIDocfx.Models.Position.Salary
+      VB:
+      - id: APIDocfx.Models.Position.Salary*
+        name: Salary
+        nameWithType: Position.Salary
+        qualifiedName: APIDocfx.Models.Position.Salary
+    isDefinition: true
+    commentId: Overload:APIDocfx.Models.Position.Salary
+  APIDocfx.Services.Interfaces:
+    name:
+      CSharp:
+      - name: APIDocfx.Services.Interfaces
+        nameWithType: APIDocfx.Services.Interfaces
+        qualifiedName: APIDocfx.Services.Interfaces
+      VB:
+      - name: APIDocfx.Services.Interfaces
+        nameWithType: APIDocfx.Services.Interfaces
+        qualifiedName: APIDocfx.Services.Interfaces
+    isDefinition: true
+    commentId: N:APIDocfx.Services.Interfaces
+  APIDocfx.Services.Interfaces.IDepartmentService:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService
+        name: IDepartmentService
+        nameWithType: IDepartmentService
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService
+      VB:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService
+        name: IDepartmentService
+        nameWithType: IDepartmentService
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces
+    commentId: T:APIDocfx.Services.Interfaces.IDepartmentService
+  APIDocfx.Services.DepartmentService.AddDepartment*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.DepartmentService.AddDepartment*
+        name: AddDepartment
+        nameWithType: DepartmentService.AddDepartment
+        qualifiedName: APIDocfx.Services.DepartmentService.AddDepartment
+      VB:
+      - id: APIDocfx.Services.DepartmentService.AddDepartment*
+        name: AddDepartment
+        nameWithType: DepartmentService.AddDepartment
+        qualifiedName: APIDocfx.Services.DepartmentService.AddDepartment
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.DepartmentService.AddDepartment
+  APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department):
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+        name: AddDepartment
+        nameWithType: IDepartmentService.AddDepartment
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: APIDocfx.Models.Department
+        name: Department
+        nameWithType: Department
+        qualifiedName: APIDocfx.Models.Department
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+        name: AddDepartment
+        nameWithType: IDepartmentService.AddDepartment
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: APIDocfx.Models.Department
+        name: Department
+        nameWithType: Department
+        qualifiedName: APIDocfx.Models.Department
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces.IDepartmentService
+    commentId: M:APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment(APIDocfx.Models.Department)
+  APIDocfx.Services.DepartmentService.GetDepartmentById*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.DepartmentService.GetDepartmentById*
+        name: GetDepartmentById
+        nameWithType: DepartmentService.GetDepartmentById
+        qualifiedName: APIDocfx.Services.DepartmentService.GetDepartmentById
+      VB:
+      - id: APIDocfx.Services.DepartmentService.GetDepartmentById*
+        name: GetDepartmentById
+        nameWithType: DepartmentService.GetDepartmentById
+        qualifiedName: APIDocfx.Services.DepartmentService.GetDepartmentById
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.DepartmentService.GetDepartmentById
+  APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32):
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+        name: GetDepartmentById
+        nameWithType: IDepartmentService.GetDepartmentById
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+        name: GetDepartmentById
+        nameWithType: IDepartmentService.GetDepartmentById
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces.IDepartmentService
+    commentId: M:APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById(System.Int32)
+  APIDocfx.Services.DepartmentService:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.DepartmentService
+        name: DepartmentService
+        nameWithType: DepartmentService
+        qualifiedName: APIDocfx.Services.DepartmentService
+      VB:
+      - id: APIDocfx.Services.DepartmentService
+        name: DepartmentService
+        nameWithType: DepartmentService
+        qualifiedName: APIDocfx.Services.DepartmentService
+    isDefinition: true
+    commentId: T:APIDocfx.Services.DepartmentService
+  APIDocfx.Services.Interfaces.IEmployeeService:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService
+        name: IEmployeeService
+        nameWithType: IEmployeeService
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService
+        name: IEmployeeService
+        nameWithType: IEmployeeService
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces
+    commentId: T:APIDocfx.Services.Interfaces.IEmployeeService
+  APIDocfx.Services.EmployeeService.AddEmployee*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.EmployeeService.AddEmployee*
+        name: AddEmployee
+        nameWithType: EmployeeService.AddEmployee
+        qualifiedName: APIDocfx.Services.EmployeeService.AddEmployee
+      VB:
+      - id: APIDocfx.Services.EmployeeService.AddEmployee*
+        name: AddEmployee
+        nameWithType: EmployeeService.AddEmployee
+        qualifiedName: APIDocfx.Services.EmployeeService.AddEmployee
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.EmployeeService.AddEmployee
+  APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee):
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+        name: AddEmployee
+        nameWithType: IEmployeeService.AddEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+        name: AddEmployee
+        nameWithType: IEmployeeService.AddEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces.IEmployeeService
+    commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee(APIDocfx.Models.Employee)
+  APIDocfx.Services.EmployeeService.GetEmployeeById*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.EmployeeService.GetEmployeeById*
+        name: GetEmployeeById
+        nameWithType: EmployeeService.GetEmployeeById
+        qualifiedName: APIDocfx.Services.EmployeeService.GetEmployeeById
+      VB:
+      - id: APIDocfx.Services.EmployeeService.GetEmployeeById*
+        name: GetEmployeeById
+        nameWithType: EmployeeService.GetEmployeeById
+        qualifiedName: APIDocfx.Services.EmployeeService.GetEmployeeById
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.EmployeeService.GetEmployeeById
+  APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32):
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+        name: GetEmployeeById
+        nameWithType: IEmployeeService.GetEmployeeById
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+        name: GetEmployeeById
+        nameWithType: IEmployeeService.GetEmployeeById
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces.IEmployeeService
+    commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById(System.Int32)
+  APIDocfx.Services.EmployeeService.UpdateEmployee*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.EmployeeService.UpdateEmployee*
+        name: UpdateEmployee
+        nameWithType: EmployeeService.UpdateEmployee
+        qualifiedName: APIDocfx.Services.EmployeeService.UpdateEmployee
+      VB:
+      - id: APIDocfx.Services.EmployeeService.UpdateEmployee*
+        name: UpdateEmployee
+        nameWithType: EmployeeService.UpdateEmployee
+        qualifiedName: APIDocfx.Services.EmployeeService.UpdateEmployee
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.EmployeeService.UpdateEmployee
+  APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee):
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+        name: UpdateEmployee
+        nameWithType: IEmployeeService.UpdateEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+        name: UpdateEmployee
+        nameWithType: IEmployeeService.UpdateEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: APIDocfx.Models.Employee
+        name: Employee
+        nameWithType: Employee
+        qualifiedName: APIDocfx.Models.Employee
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: APIDocfx.Services.Interfaces.IEmployeeService
+    commentId: M:APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee(APIDocfx.Models.Employee)
+  APIDocfx.Services.EmployeeService:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.EmployeeService
+        name: EmployeeService
+        nameWithType: EmployeeService
+        qualifiedName: APIDocfx.Services.EmployeeService
+      VB:
+      - id: APIDocfx.Services.EmployeeService
+        name: EmployeeService
+        nameWithType: EmployeeService
+        qualifiedName: APIDocfx.Services.EmployeeService
+    isDefinition: true
+    commentId: T:APIDocfx.Services.EmployeeService
+  APIDocfx.Services:
+    name:
+      CSharp:
+      - name: APIDocfx.Services
+        nameWithType: APIDocfx.Services
+        qualifiedName: APIDocfx.Services
+      VB:
+      - name: APIDocfx.Services
+        nameWithType: APIDocfx.Services
+        qualifiedName: APIDocfx.Services
+    isDefinition: true
+    commentId: N:APIDocfx.Services
+  APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment*
+        name: AddDepartment
+        nameWithType: IDepartmentService.AddDepartment
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+      VB:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment*
+        name: AddDepartment
+        nameWithType: IDepartmentService.AddDepartment
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.Interfaces.IDepartmentService.AddDepartment
+  APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById*
+        name: GetDepartmentById
+        nameWithType: IDepartmentService.GetDepartmentById
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+      VB:
+      - id: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById*
+        name: GetDepartmentById
+        nameWithType: IDepartmentService.GetDepartmentById
+        qualifiedName: APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.Interfaces.IDepartmentService.GetDepartmentById
+  APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee*
+        name: AddEmployee
+        nameWithType: IEmployeeService.AddEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee*
+        name: AddEmployee
+        nameWithType: IEmployeeService.AddEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.Interfaces.IEmployeeService.AddEmployee
+  APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById*
+        name: GetEmployeeById
+        nameWithType: IEmployeeService.GetEmployeeById
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById*
+        name: GetEmployeeById
+        nameWithType: IEmployeeService.GetEmployeeById
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.Interfaces.IEmployeeService.GetEmployeeById
+  APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee*:
+    name:
+      CSharp:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee*
+        name: UpdateEmployee
+        nameWithType: IEmployeeService.UpdateEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee
+      VB:
+      - id: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee*
+        name: UpdateEmployee
+        nameWithType: IEmployeeService.UpdateEmployee
+        qualifiedName: APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee
+    isDefinition: true
+    commentId: Overload:APIDocfx.Services.Interfaces.IEmployeeService.UpdateEmployee

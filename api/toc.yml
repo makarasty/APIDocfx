@@ -1,0 +1,31 @@
+### YamlMime:TableOfContent
+- uid: APIDocfx.Enums
+  name: APIDocfx.Enums
+  items:
+  - uid: APIDocfx.Enums.EmployeeStatus
+    name: EmployeeStatus
+  - uid: APIDocfx.Enums.EmploymentType
+    name: EmploymentType
+- uid: APIDocfx.Models
+  name: APIDocfx.Models
+  items:
+  - uid: APIDocfx.Models.Department
+    name: Department
+  - uid: APIDocfx.Models.Employee
+    name: Employee
+  - uid: APIDocfx.Models.Position
+    name: Position
+- uid: APIDocfx.Services
+  name: APIDocfx.Services
+  items:
+  - uid: APIDocfx.Services.DepartmentService
+    name: DepartmentService
+  - uid: APIDocfx.Services.EmployeeService
+    name: EmployeeService
+- uid: APIDocfx.Services.Interfaces
+  name: APIDocfx.Services.Interfaces
+  items:
+  - uid: APIDocfx.Services.Interfaces.IDepartmentService
+    name: IDepartmentService
+  - uid: APIDocfx.Services.Interfaces.IEmployeeService
+    name: IEmployeeService

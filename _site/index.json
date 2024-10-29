@@ -1,0 +1,82 @@
+{
+  "api/APIDocfx.Enums.EmployeeStatus.html": {
+    "href": "api/APIDocfx.Enums.EmployeeStatus.html",
+    "title": "Enum EmployeeStatus",
+    "keywords": "Enum EmployeeStatus Статус співробітника. Namespace : APIDocfx.Enums Assembly : APIDocfx.dll Syntax public enum EmployeeStatus Fields Name Description Active Співробітник активний. OnLeave Співробітник у відпустці. Terminated Співробітник звільнений."
+  },
+  "api/APIDocfx.Enums.EmploymentType.html": {
+    "href": "api/APIDocfx.Enums.EmploymentType.html",
+    "title": "Enum EmploymentType",
+    "keywords": "Enum EmploymentType Тип зайнятості співробітника. Namespace : APIDocfx.Enums Assembly : APIDocfx.dll Syntax public enum EmploymentType Fields Name Description Contract Контрактна основа. FullTime Повна зайнятість. PartTime Неповна зайнятість."
+  },
+  "api/APIDocfx.Enums.html": {
+    "href": "api/APIDocfx.Enums.html",
+    "title": "Namespace APIDocfx.Enums",
+    "keywords": "Namespace APIDocfx.Enums Enums EmployeeStatus Статус співробітника. EmploymentType Тип зайнятості співробітника."
+  },
+  "api/APIDocfx.Models.Department.html": {
+    "href": "api/APIDocfx.Models.Department.html",
+    "title": "Class Department",
+    "keywords": "Class Department Клас, що представляє відділ організації. Inheritance System.Object Department Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : APIDocfx.Models Assembly : APIDocfx.dll Syntax public class Department Properties DepartmentId Унікальний ідентифікатор відділу. Declaration public int DepartmentId { get; set; } Property Value Type Description System.Int32 Employees Список співробітників у відділі. Declaration public List<Employee> Employees { get; set; } Property Value Type Description List < Employee > Name Назва відділу. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "api/APIDocfx.Models.Employee.html": {
+    "href": "api/APIDocfx.Models.Employee.html",
+    "title": "Class Employee",
+    "keywords": "Class Employee Клас, що представляє співробітника організації. Inheritance System.Object Employee Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : APIDocfx.Models Assembly : APIDocfx.dll Syntax public class Employee Properties Department Відділ, до якого належить співробітник. Declaration public Department Department { get; set; } Property Value Type Description Department EmployeeId Унікальний ідентифікатор співробітника. Declaration public int EmployeeId { get; set; } Property Value Type Description System.Int32 EmploymentType Тип зайнятості співробітника. Declaration public EmploymentType EmploymentType { get; set; } Property Value Type Description EmploymentType FullName Повне ім'я співробітника. Declaration public string FullName { get; set; } Property Value Type Description System.String Position Посада співробітника. Declaration public Position Position { get; set; } Property Value Type Description Position Status Статус співробітника. Declaration public EmployeeStatus Status { get; set; } Property Value Type Description EmployeeStatus"
+  },
+  "api/APIDocfx.Models.html": {
+    "href": "api/APIDocfx.Models.html",
+    "title": "Namespace APIDocfx.Models",
+    "keywords": "Namespace APIDocfx.Models Classes Department Клас, що представляє відділ організації. Employee Клас, що представляє співробітника організації. Position Клас, що представляє посаду співробітника."
+  },
+  "api/APIDocfx.Models.Position.html": {
+    "href": "api/APIDocfx.Models.Position.html",
+    "title": "Class Position",
+    "keywords": "Class Position Клас, що представляє посаду співробітника. Inheritance System.Object Position Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : APIDocfx.Models Assembly : APIDocfx.dll Syntax public class Position Properties Salary Заробітна плата для цієї посади. Declaration public decimal Salary { get; set; } Property Value Type Description System.Decimal Title Назва посади. Declaration public string Title { get; set; } Property Value Type Description System.String"
+  },
+  "api/APIDocfx.Services.DepartmentService.html": {
+    "href": "api/APIDocfx.Services.DepartmentService.html",
+    "title": "Class DepartmentService",
+    "keywords": "Class DepartmentService Реалізація інтерфейсу IDepartmentService. Inheritance System.Object DepartmentService Implements IDepartmentService Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : APIDocfx.Services Assembly : APIDocfx.dll Syntax public class DepartmentService : IDepartmentService Methods AddDepartment(Department) Declaration public void AddDepartment(Department department) Parameters Type Name Description Department department GetDepartmentById(Int32) Declaration public Department GetDepartmentById(int departmentId) Parameters Type Name Description System.Int32 departmentId Returns Type Description Department Implements IDepartmentService"
+  },
+  "api/APIDocfx.Services.EmployeeService.html": {
+    "href": "api/APIDocfx.Services.EmployeeService.html",
+    "title": "Class EmployeeService",
+    "keywords": "Class EmployeeService Реалізація інтерфейсу IEmployeeService. Inheritance System.Object EmployeeService Implements IEmployeeService Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : APIDocfx.Services Assembly : APIDocfx.dll Syntax public class EmployeeService : IEmployeeService Methods AddEmployee(Employee) Declaration public void AddEmployee(Employee employee) Parameters Type Name Description Employee employee GetEmployeeById(Int32) Declaration public Employee GetEmployeeById(int employeeId) Parameters Type Name Description System.Int32 employeeId Returns Type Description Employee UpdateEmployee(Employee) Declaration public void UpdateEmployee(Employee employee) Parameters Type Name Description Employee employee Implements IEmployeeService"
+  },
+  "api/APIDocfx.Services.html": {
+    "href": "api/APIDocfx.Services.html",
+    "title": "Namespace APIDocfx.Services",
+    "keywords": "Namespace APIDocfx.Services Classes DepartmentService Реалізація інтерфейсу IDepartmentService. EmployeeService Реалізація інтерфейсу IEmployeeService."
+  },
+  "api/APIDocfx.Services.Interfaces.html": {
+    "href": "api/APIDocfx.Services.Interfaces.html",
+    "title": "Namespace APIDocfx.Services.Interfaces",
+    "keywords": "Namespace APIDocfx.Services.Interfaces Interfaces IDepartmentService Інтерфейс для сервісу роботи з відділами. IEmployeeService Інтерфейс для сервісу роботи зі співробітниками."
+  },
+  "api/APIDocfx.Services.Interfaces.IDepartmentService.html": {
+    "href": "api/APIDocfx.Services.Interfaces.IDepartmentService.html",
+    "title": "Interface IDepartmentService",
+    "keywords": "Interface IDepartmentService Інтерфейс для сервісу роботи з відділами. Namespace : APIDocfx.Services.Interfaces Assembly : APIDocfx.dll Syntax public interface IDepartmentService Methods AddDepartment(Department) Додає новий відділ в систему. Declaration void AddDepartment(Department department) Parameters Type Name Description Department department Відділ для додавання. GetDepartmentById(Int32) Отримує відділ за його ідентифікатором. Declaration Department GetDepartmentById(int departmentId) Parameters Type Name Description System.Int32 departmentId Ідентифікатор відділу. Returns Type Description Department Знайдений відділ."
+  },
+  "api/APIDocfx.Services.Interfaces.IEmployeeService.html": {
+    "href": "api/APIDocfx.Services.Interfaces.IEmployeeService.html",
+    "title": "Interface IEmployeeService",
+    "keywords": "Interface IEmployeeService Інтерфейс для сервісу роботи зі співробітниками. Namespace : APIDocfx.Services.Interfaces Assembly : APIDocfx.dll Syntax public interface IEmployeeService Methods AddEmployee(Employee) Додає нового співробітника в систему. Declaration void AddEmployee(Employee employee) Parameters Type Name Description Employee employee Співробітник для додавання. GetEmployeeById(Int32) Отримує співробітника за його ідентифікатором. Declaration Employee GetEmployeeById(int employeeId) Parameters Type Name Description System.Int32 employeeId Ідентифікатор співробітника. Returns Type Description Employee Знайдений співробітник. UpdateEmployee(Employee) Оновлює інформацію про співробітника. Declaration void UpdateEmployee(Employee employee) Parameters Type Name Description Employee employee Співробітник з оновленою інформацією."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Вступ",
+    "keywords": "Вступ Ласкаво просимо до документації системи обліку кадрів організації. Ця документація допоможе вам зрозуміти структуру проекту та API. З чого почати Ознайомтеся з класами даних . Перегляньте інтерфейси та сервіси . Дізнайтеся, як використовувати систему в розділі Використання ."
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "",
+    "keywords": "Написати простий додаток який буде містити: Декілька класів даних, перелічувані типи даних, інтерфейси та їх пусту реалізацію Додати документацію до коду, використовуючи коментарі в коді (дивись інструкцію до Documentation comments). Використовуючи docfx згенерувати документацію до проекту (дивись інструкцію до DocFX). Згенерований сайт документації має містити саму документацію та апі до коду, з можливістю пошуку по ключовим словам. Розділ супутньої документації має містити такі розділи: \"Вступ\" та \"З чого почати\". Тематика робіт Структура класів та сервіси доступу до даних для ведення обліку товарів на складі Структура класів та сервіси доступу до даних для обліку кадрів організації Структура класів та сервіси доступу до даних для обліку студентів в коледжі Структура класів та сервіси доступу до даних для обліку поштових перевезень. ЗВЕРНІТЬ УВАГУ! В даному завданні не важлива реалізація логіки, деякі методи логіки можуть бути пусті та повертати помилку NotImplementedException. Важливим є наявність документації до кожного класу, інтерфейсу , властивості, чи методу."
+  },
+  "usage.html": {
+    "href": "usage.html",
+    "title": "Приклади використання",
+    "keywords": "Приклади використання using PersonnelManagement.Models; using PersonnelManagement.Services; // Створення сервісів var departmentService = new DepartmentService(); var employeeService = new EmployeeService(); // Створення нового відділу var itDepartment = new Department { DepartmentId = 2, Name = \"Інформаційні Технології\" }; departmentService.AddDepartment(itDepartment); // Створення нового співробітника var newEmployee = new Employee { EmployeeId = 2, FullName = \"Олена Коваль\", Department = itDepartment, Position = new Position { Title = \"Розробник ПЗ\", Salary = 90000 }, Status = EmployeeStatus.Active, EmploymentType = EmploymentType.FullTime }; employeeService.AddEmployee(newEmployee); // Отримання співробітника за ідентифікатором var employee = employeeService.GetEmployeeById(2); Console.WriteLine($\"Співробітник: {employee.FullName}, Відділ: {employee.Department.Name}\");"
+  }
+}

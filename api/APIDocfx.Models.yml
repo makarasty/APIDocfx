@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: APIDocfx.Models
+  commentId: N:APIDocfx.Models
+  id: APIDocfx.Models
+  children:
+  - APIDocfx.Models.Department
+  - APIDocfx.Models.Employee
+  - APIDocfx.Models.Position
+  langs:
+  - csharp
+  - vb
+  name: APIDocfx.Models
+  nameWithType: APIDocfx.Models
+  fullName: APIDocfx.Models
+  type: Namespace
+  assemblies:
+  - APIDocfx
+references:
+- uid: APIDocfx.Models.Department
+  commentId: T:APIDocfx.Models.Department
+  parent: APIDocfx.Models
+  name: Department
+  nameWithType: Department
+  fullName: APIDocfx.Models.Department
+- uid: APIDocfx.Models.Employee
+  commentId: T:APIDocfx.Models.Employee
+  parent: APIDocfx.Models
+  name: Employee
+  nameWithType: Employee
+  fullName: APIDocfx.Models.Employee
+- uid: APIDocfx.Models.Position
+  commentId: T:APIDocfx.Models.Position
+  parent: APIDocfx.Models
+  name: Position
+  nameWithType: Position
+  fullName: APIDocfx.Models.Position
+- uid: APIDocfx.Models
+  commentId: N:APIDocfx.Models
+  name: APIDocfx.Models
+  nameWithType: APIDocfx.Models
+  fullName: APIDocfx.Models
